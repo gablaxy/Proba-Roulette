@@ -88,7 +88,7 @@ def npartie(n,cashin,tirage): # n = nombre de partie que l'on veut faire, cashin
     gagnee = 0
     perdue = 0
     autre = 0
-    for i in range(n):
+    for y in range(n):
         nb = partie(cashin,tirage)
         if(nb == cashin):
             gagnee += 1
@@ -97,3 +97,6 @@ def npartie(n,cashin,tirage): # n = nombre de partie que l'on veut faire, cashin
         elif(nb == 0):
             perdue += 1
     return gagnee, perdue, autre
+
+
+
