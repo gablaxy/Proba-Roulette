@@ -2,3 +2,10 @@
 
 Simulation d'une roulette de casino qui permet d'effectuer des probabilités de gain sur
 des millions de tours de roulette.
+
+
+
+
+### To do
+- Interface graphique : menu
+- Interface graphique : animations
